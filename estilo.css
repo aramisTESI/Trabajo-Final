@@ -1,0 +1,25 @@
+body {
+font family: Arial;
+background-color: #d6b478;
+}
+nav {
+background-color: grey;
+padding: 10px;
+}
+nav a {
+color: white;
+margin: 10px;
+text-decoration: none;
+}
+nav a:hover {
+color: black;
+}
+header, footer {
+text-align: center;
+background: #222;
+color: white;
+padding: 10px;
+}
+@media (max-width: 768px) {
+nav ul { flex-direction: column; }
+}
